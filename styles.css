@@ -196,12 +196,55 @@ p{
 }
 
 .ourteam_wrapper .team_members:hover img{
-	transform: scale(1.1);
+	transform: scale(1.5);  /* zoom in */
 }
 
-/* Location */
-.location{
-	background: #1a431f;
+/* Location */ /*
+#location {
+    background-color: rgb(8, 154, 64);
+}
+.location-details{
+    display: flex;
+    justify-content: space-around;
+}
+.location-icon {
+    text-align: center;
+    font-size: 2rem;
+}
+.location-info {
+    text-align: center;
+    font-size: 1.2rem;
+}
+iframe {
+    margin-bottom: 2rem;
+    align-self: center;
+}
+.map {
+    display: flex;
+    justify-content: center;
+}
+.location-details,
+.map {
+    margin-right: 6rem !important;
+}
+.email-address:link,
+.email-address:visited {
+    text-decoration: none;
+    color: inherit;
+}
+.email-address:hover,
+.email-address:active {
+    text-decoration: underline;
+}
+
+/* end location */
+h2 {
+    font-family: 'Arial', cursive;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+	
 }
 
 /* footer */
