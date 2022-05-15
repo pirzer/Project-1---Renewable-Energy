@@ -37,7 +37,7 @@ p{
     display: block;
     margin: 25px auto 0;
     text-align: center;
-	background-color: #88b10e;
+	background-color: #88b10e;  /* ?? */
 }
 
 .main_container{
@@ -199,7 +199,7 @@ p{
 	transform: scale(1.5);  /* zoom in */
 }
 
-/* Location */ 
+/* Location */
 #location {
     background-color: rgb(69, 119, 54);
 }
@@ -237,15 +237,14 @@ iframe {
     text-decoration: underline;
 }
 
-/* end location */
 h2 {
     font-family: 'Arial', cursive;
     text-align: center;
-    font-size: 4rem;
+    font-size: 4rem; /*location title size*/
     font-weight: 600;
     margin-bottom: 3rem;
-	
 }
+
 
 /* footer */
 .footer{
@@ -298,13 +297,63 @@ h2 {
 	line-height: 50px;
 	text-align: center;
 	cursor: pointer;
-	background: #fb2274;
+	background: #222f22;
 	border-radius: 50%;
-	display: none;
 }
 
 .arrow img{
 	width: 20px;
 	height: 20px;
 	z-index: 1;
+}
+
+@-webkit-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    49% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+@-moz-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    49% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+@-o-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    49% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+img {
+    -webkit-animation: blink 1s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation: blink 1s;
+    -moz-animation-iteration-count: infinite;
+    -o-animation: blink 1s;
+    -o-animation-iteration-count: infinite;
 }
