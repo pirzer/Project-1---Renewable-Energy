@@ -199,9 +199,9 @@ p{
 	transform: scale(1.5);  /* zoom in */
 }
 
-/* Location */ /*
+/* Location */ 
 #location {
-    background-color: rgb(8, 154, 64);
+    background-color: rgb(69, 119, 54);
 }
 .location-details{
     display: flex;
