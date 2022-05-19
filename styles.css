@@ -315,15 +315,18 @@ iframe {
   }
 
 /* video */
+
 html,body {
     width:100vw;
     height: 100vh;
     margin: 0;
-}
-#videoBG {
-    position:fixed;
+} 
+
+#videoBG  {
+    position: absolute;
     z-index: -1;
 }
+
 @media (min-aspect-ratio: 16/9) {
     #videoBG {
         width:100%;
