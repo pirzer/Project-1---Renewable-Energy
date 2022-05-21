@@ -180,6 +180,9 @@ p{
 	margin-bottom: 25px;
 }
 
+.ourteam_wrapper .team-2.team{
+	margin-bottom: 25px;
+}
 .ourteam_wrapper .team_members{
 	width: 30%;
 	height: auto;
@@ -196,7 +199,7 @@ p{
 }
 
 .ourteam_wrapper .team_members:hover img{
-	transform: scale(1.5);  /* zoom in */
+	transform: scale(1.8);  /* zoom in */
 }
 
 /* Location */
@@ -316,8 +319,8 @@ iframe {
 
 /* video */
 
-html,body {
-    width:100vw;
+html, body {
+    width: 100vw;
     height: 100vh;
     margin: 0;
 } 
