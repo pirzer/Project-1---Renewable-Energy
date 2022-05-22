@@ -232,22 +232,17 @@ iframe {
     margin-right: 6rem !important;
 }
 .email-address:link,
-.email-address:visited {
+.email-address:visited{
     text-decoration: none;
     color: inherit;
 }
 .email-address:hover,
-.email-address:active {
+.email-address:active{
     text-decoration: underline;
 }
 
 
-
-
-
-
-
-/* footer */
+/* Footer */
 .footer{
 	width: 100%;
 	text-align: center;
@@ -259,7 +254,17 @@ iframe {
 	color: #fff;
 }
 
-
+/* Footer Blinker*/
+.blinkingfooter{
+    animation:blinkingText 1.2s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: rgb(225, 240, 230);    }
+    49%{    color: rgb(32, 215, 12); }
+    60%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: rgb(20, 181, 33);    }
+}
 
 @media (max-width: 720px){
 
@@ -288,7 +293,7 @@ iframe {
 }
 
 
-/* arrow */
+/* Arrow */
 .arrow{
 	position: fixed;
 	bottom: 25px;
@@ -318,7 +323,7 @@ iframe {
 	50% { opacity: 0; }
   }
 
-/* video */
+/* Video */
 
 html, body {
     width: 100vw;
@@ -353,14 +358,3 @@ html, body {
     }
 }
 
-/* Footer */
-.blinkingfooter{
-    animation:blinkingText 1.2s infinite;
-}
-@keyframes blinkingText{
-    0%{     color: rgb(225, 240, 230);    }
-    49%{    color: rgb(32, 215, 12); }
-    60%{    color: transparent; }
-    99%{    color:transparent;  }
-    100%{   color: rgb(20, 181, 33);    }
-}
