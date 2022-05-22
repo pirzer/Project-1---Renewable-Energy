@@ -352,3 +352,15 @@ html, body {
         background-size: cover;
     }
 }
+
+/* Footer */
+.blinkingfooter{
+    animation:blinkingText 1.2s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: rgb(225, 240, 230);    }
+    49%{    color: rgb(32, 215, 12); }
+    60%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: rgb(20, 181, 33);    }
+}
