@@ -10,6 +10,7 @@
 	font-family: 'Josefin Sans', sans-serif;
 }
 
+
 h1.title{
 	margin-bottom: 20px;
 	color: #def9e8;  /* about us word */
@@ -206,6 +207,7 @@ p{
 /* Location */
 #location {
     background-color: rgb(69, 119, 54);
+	width: 100%;
 }
 .location-details{
     display: flex;
@@ -226,6 +228,7 @@ iframe {
 .map {
     display: flex;
     justify-content: center;
+	width: 100%;
 }
 .location-details,
 .map {
@@ -327,7 +330,9 @@ iframe {
 
 html, body {
     width: 100vw;
+	width: -webkit-fill-available;
     height: 100vh;
+	height: -webkit-fill-available;
     margin: 0;
 } 
 
