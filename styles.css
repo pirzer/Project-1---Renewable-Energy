@@ -224,6 +224,7 @@ p{
 iframe {
     margin-bottom: 2rem;
     align-self: center;
+	filter: invert(100%);
 }
 .map {
     display: flex;
