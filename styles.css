@@ -239,7 +239,16 @@ p{
     font-size: 1.2rem;
 }
 iframe {
-    margin-bottom: 2rem;
+	display: block; /*testing mobile screen 29/05/2022 */
+	width: 70vw;	/*testing mobile screen 29/05/2022 */
+	height: calc(.50 * 70vw);	/*testing mobile screen 29/05/2022 */
+	max-width: 400px; /*testing mobile screen 29/05/2022 */
+	min-height: 200px; /*testing mobile screen 29/05/2022 */
+	margin: 1rem auto;/*testing mobile screen 29/05/2022 */
+	margin-bottom: 1rem auto; /*testing mobile screen 29/05/2022 + auto*/
+	border: solid 2px gray; /*testing mobile screen 29/05/2022 */
+	box-shadow: 2px 2px 2px rgba(152, 183, 146, 0.856); /*testing mobile screen 29/05/2022 */
+	border-radius: 10px; /*testing mobile screen 29/05/2022 */
     align-self: center;
 	filter: invert(100%);
 }
