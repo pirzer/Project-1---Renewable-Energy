@@ -259,7 +259,7 @@ iframe {
 }
 .location-details,
 .map {
-    margin-right: 6rem !important;
+	margin-right: 6rem !important;
 }
 .email-address:link, 
 .email-address:visited{
@@ -358,10 +358,14 @@ iframe {
 /* Video */
 
 html, body {
-   	width: 100%;
-  	height: 100%; 
-    margin: 0;
-	padding: 0;
+	width: 100%;
+  	height: 100%;
+	margin: 0;
+	padding: 0; 
+	display: flex; /* 28/05/2022 */
+	justify-content: center; /* 28/05/2022 */
+	font-family: 'Poppins', sans-serif; /* 28/05/2022 */
+
 } 
 
 #videoBG  {
