@@ -190,7 +190,9 @@ p{
 
 .ourteam_wrapper .team{
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 1rem;
 }
 
 .ourteam_wrapper .team-1.team{
@@ -201,7 +203,7 @@ p{
 	margin-bottom: 25px;
 }
 .ourteam_wrapper .team_members{
-	width: 30%;
+	width: 300px;
 	height: auto;
 	cursor: pointer;
 	overflow: hidden;
@@ -211,7 +213,7 @@ p{
 .ourteam_wrapper .team_members img{
 	display: block;
 	width: 100%;
-	height: auto;
+	height: 100%;
 	transition: all 0.5s ease;
 }
 
@@ -307,6 +309,8 @@ iframe {
 
 	.banner_content{
 		margin-top: 35px;
+		position: absolute;
+		top: 300px;
 	}
 
 }
@@ -371,9 +375,15 @@ html, body {
        /* background: url('DDW.jpg'); adding 28/05/2022 */
         background-size: cover;
     }
-}
-
-/* added 29/05/2022 */
-h1.title {
-	font-size: 25px;
+	/* added 29/05/2022 */
+	h1.title {
+		font-size: 25px;
 	}
+	.banner_content h1 {
+		font-size: 20px;
+	}
+	.banner_image {
+		background: url('https://s3.envato.com/files/236059013/01_preview1.jpg') no-repeat top center;
+		height: 500px;
+	}
+}
