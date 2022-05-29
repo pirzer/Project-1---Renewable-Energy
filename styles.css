@@ -354,6 +354,7 @@ html, body {
 #videoBG  {
     position: absolute;
     z-index: -1;
+	width: 100%;
 }
 
 @media (min-aspect-ratio: 16/9) {
