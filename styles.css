@@ -59,7 +59,7 @@ p{
 .logo a{
 	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 	font-size: 42px;
-	color: #45e51e;
+	color: #45e51e; 
 }
 
 .navbar_items ul{
@@ -74,6 +74,21 @@ p{
 	text-transform: uppercase;
 	color: rgb(71, 238, 56);
 }
+
+/* Responsiveness 29/05/2022 */
+@media (min-width: 768px) {
+    .navi{
+        max-height: none;
+        top: 0;
+        position: relative;
+        float: right;
+        width: fit-content;
+    }
+    .menu li{
+        float: left;
+    }
+}
+/* Responsiveness 29/05/2022 */
 
 /* banner_image */
 .banner_image{
