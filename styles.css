@@ -55,7 +55,14 @@ p{
 	background-color: rgba(7, 93, 12, 0.571);
 	padding: 2%; /* adding 28/05/2022 */
 }
-
+/* added all this media 29/05/2022 to fix tablet white colour */
+@media screen and (max-width: 767px) {   
+	body #logo {
+	  max-width: 90%;
+	  display: block;
+	}
+   }
+/* added all this media 29/05/2022 to fix tablet white colour */
 .logo a{
 	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 	font-size: 42px;
