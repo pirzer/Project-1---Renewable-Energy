@@ -228,7 +228,9 @@ p{
 }
 .location-details{
     display: flex;
-    justify-content: space-around;
+    justify-content: center; 	/* 29/05/2022 space-around changed to center */
+	flex-wrap: wrap; 			/* 29/05/2022 added it */
+	gap: 5rem;					/* 29/05/2022 added it */
 }
 .location-icon {
     text-align: center;
@@ -240,8 +242,8 @@ p{
 }
 iframe {
 	display: block; /*testing mobile screen 29/05/2022 */
-	width: 70vw;	/*testing mobile screen 29/05/2022 */
-	height: calc(.50 * 70vw);	/*testing mobile screen 29/05/2022 */
+	width: 65vw;	/*testing mobile screen 29/05/2022 */
+	height: calc(.5 * 65vw);	/*testing mobile screen 29/05/2022 */
 	max-width: 400px; /*testing mobile screen 29/05/2022 */
 	min-height: 200px; /*testing mobile screen 29/05/2022 */
 	margin: 1rem auto;/*testing mobile screen 29/05/2022 */
