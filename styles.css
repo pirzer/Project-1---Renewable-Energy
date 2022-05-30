@@ -407,5 +407,6 @@ html, body {
 	.banner_image {
 		background: url('https://s3.envato.com/files/236059013/01_preview1.jpg') no-repeat top center;
 		height: 500px;
+		background: #e0ef0a;
 	}
 }
