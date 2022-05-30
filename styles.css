@@ -240,7 +240,7 @@ p{
 }
 
 /* Location */
-#location {
+.location{
     background-color: rgb(69, 119, 54);
 	width: 100%;
 }
@@ -418,7 +418,25 @@ html, body {
 	.banner_image {
 		background: url('https://s3.envato.com/files/236059013/01_preview1.jpg') no-repeat top center;
 		width: 100%; /* added it. Testing background 30/05/2022 */
-		height: 350px; /* Testing background 30/05/2022. 500px to 350px*/
+		height: 500px; /* Testing background 30/05/2022. 500px to ???*/
 		background: #ef0ae0; /* Testing background 30/05/2022. Yellow enables to display on devices of height upto 767px, line403  */
 	}
 }
+
+
+/* Reposive text 30/05/2022 ??? */
+
+:root {
+	font-size: 62.5%;
+  }
+  
+  h3 {
+	font-size: clamp(1.2rem, 2vw, 2.1rem);
+  }
+  
+  p {
+	font-size: clamp(1.2rem, 2vw, 2.1rem);
+  } 
+
+ /* Reposive text 30/05/2022 */
+ 
