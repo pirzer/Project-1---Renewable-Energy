@@ -416,12 +416,12 @@ html, body {
 		font-size: 20px;
 	}
 	.banner_image {
-		background: url('https://s3.envato.com/files/236059013/01_preview1.jpg');
+		background: url("https://s3.envato.com/files/236059013/01_preview1.jpg"); 
 		background-repeat: no-repeat;
-		background-size: cover;
+		background-size: cover; /* cover: Resize the background image to cover the entire container used to see reference: https://www.w3schools.com/cssref/css3_pr_background-size.asp */
 		width: 100%; /* added it. Testing background 30/05/2022 */
 		height: 500px; /* Testing background 30/05/2022. 500px to ???*/
-		background: #ef0ae0; /* Testing background 30/05/2022. Yellow enables to display on devices of height upto 767px, line403  */
+		/*background: #ef0ae0; */ /* Testing background 30/05/2022. Yellow enables to display on devices of height upto 767px, line403  */
 	}
 }
 
