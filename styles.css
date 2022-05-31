@@ -391,7 +391,7 @@ html, body {
 #videoBG  {
     position: absolute;
     z-index: -1;
-	width: 100%;
+	width: 150%; /* width increased from 100% to 150% to cover the white background and leave out the logo */
 }
 
 @media (min-aspect-ratio: 16/9) {
@@ -416,7 +416,9 @@ html, body {
 		font-size: 20px;
 	}
 	.banner_image {
-		background: url('https://s3.envato.com/files/236059013/01_preview1.jpg') no-repeat top center;
+		background: url('https://s3.envato.com/files/236059013/01_preview1.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
 		width: 100%; /* added it. Testing background 30/05/2022 */
 		height: 500px; /* Testing background 30/05/2022. 500px to ???*/
 		background: #ef0ae0; /* Testing background 30/05/2022. Yellow enables to display on devices of height upto 767px, line403  */
