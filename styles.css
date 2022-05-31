@@ -240,6 +240,27 @@ p{
 }
 
 /* Location */
+
+/* font size changes 31/05/2022*/
+div.location {
+	/*background-color: lightgrey;*/
+	padding: 20px;
+  }
+  
+  @media screen and (min-width: 601px) {
+	div.location {
+	  font-size: 80px;
+	}
+  }
+  
+  @media screen and (max-width: 600px) {
+	div.location {
+	  font-size: 30px;
+	}
+  }
+
+/* font size changes 31/05/2022*/
+
 .location{
     background-color: rgb(69, 119, 54);
 	width: 100%;
@@ -410,7 +431,7 @@ html, body {
     }
 	/* added 29/05/2022 */
 	h1.title {
-		font-size: 25px;  /* changed 25px to 15px 30/05/2022 */
+		font-size: 20px;  /* changed 25px to 15px 30/05/2022. 31/01/2022 changed from 25px to 20px */
 	}
 	.banner_content h1 {
 		font-size: 20px;
