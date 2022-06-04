@@ -51,7 +51,7 @@ p{
 	height: 75px; /* 65px to 75px 04/06/2022 */
 	position: absolute;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between; /* changed space-around to space-between 04/06/2022 */
 	align-items: center;
 	background-color: rgba(207, 217, 207, 0.571);  /* rgba(7, 93, 12, 0.571) to (207 217 207 0.571)  04/06/2022 */
 	padding: 2%; /* adding 28/05/2022 */
