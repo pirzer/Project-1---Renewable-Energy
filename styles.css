@@ -16,7 +16,7 @@ h1.title{
 	font-family: 'Tahoma', cursive;
 	text-transform: uppercase;
 	font-size: 40px;
-	word-spacing: 30px;
+	word-spacing: 10px;  /* changing 30px to 10px 04/06/2022 */
 	letter-spacing: 15px;
 }
 
