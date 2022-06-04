@@ -24,7 +24,7 @@ p{
 	margin-bottom: 15px;
 	font-size: 18px;
 	line-height: 20px;
-	color: #92da7a; /* we can make your green projects come true 92da7a */
+	color: #fefefe; /* we can make your green projects come true. changed 92da7a to #fefefe 04/06/2022 */
 
 }
 
@@ -48,12 +48,12 @@ p{
 /* Navigation Bar */
 .navbar{
 	width: 100%;
-	height: 65px;
+	/* height: 65px; */ 
 	position: absolute;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	background-color: rgba(7, 93, 12, 0.571);
+	background-color: rgba(207, 217, 207, 0.571);  /* rgba(7, 93, 12, 0.571) to (207 217 207 0.571)  04/06/2022 */
 	padding: 2%; /* adding 28/05/2022 */
 }
 /* added all this media 29/05/2022 to fix tablet white colour */
@@ -67,7 +67,7 @@ p{
 .logo a{
 	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 	font-size: 42px;
-	color: #45e51e; 
+	color: #0f3e04;  /* changed #45e51e to #0f3e04  04/06/2022*/
 }
 
 .navbar_items ul{
@@ -80,7 +80,7 @@ p{
 
 .navbar_items ul li a{
 	text-transform: uppercase;
-	color: rgb(71, 238, 56);
+	color: #0f3e04; /* rgb(71, 238, 56) to #0f3e04 04/06/2022 */
 }
 
 /* Responsiveness 29/05/2022 */
@@ -112,8 +112,8 @@ p{
 
 .banner_content{
 	text-align: center;
-	color: rgb(110, 214, 53); /* RENEWABLE ENERGY EXPERTS ON EPC PROJECTS: */
-	background: #03300e; /* background main message */
+	color: rgb(227 240 227); /* RENEWABLE ENERGY EXPERTS ON EPC PROJECTS. from green to white rgb (197,244,195)*/
+	background: #03300554; /* background main message #03300e to #03300e54, #03300554 */
 }
 
 .banner_content h1{
@@ -123,7 +123,7 @@ p{
 }
 
 .banner_content h1 span{
-	color: #4f8841; /* SOLAR & WIND POWER PLANTS */
+	color: #26fc32; /* SOLAR & WIND POWER PLANTS. changed from #4f8841 to #44cc16 #26fc32 */
 }
 
 
@@ -451,11 +451,11 @@ html, body {
 /* Reposive text 30/05/2022 ??? */
 
 :root {
-	font-size: 62.5%;
+	font-size: 72.5%; /* changed from 62.5% to 72.5% */
   }
   
   h3 {
-	font-size: clamp(1.2rem, 2vw, 2.1rem);
+	font-size: clamp(1.6rem, 2vw, 2.1rem); /* changed 1.2rem to 1.6rem */
   }
   
   p {
