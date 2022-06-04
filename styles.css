@@ -464,3 +464,16 @@ html, body {
 
  /* Reposive text 30/05/2022 */
  
+
+ /* Reposive paragraph 04/06/2022 */
+
+.responsive-paragraph{
+    line-height: 1.5;
+    font-size: 20px
+}
+
+.responsive-paragraph-a{
+    line-height: 1.1;
+    font-size: 18px
+}
+/* Reposive paragraph 04/06/2022 */
