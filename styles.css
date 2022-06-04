@@ -38,6 +38,7 @@ p{
     margin: 25px auto 0;
     text-align: center;
 	background-color: #88b10e;  /* ?? */
+	font-size: 10px; /* setting font-size to text of buttom at 10px 04/06/2022 */
 }
 
 .main_container{
@@ -103,7 +104,7 @@ p{
 	/* The video can be removed and set the image 01_preview.jpg as a contaiment */
 	background-size: cover;
 	width: 100%;
-	height: 500px; /*changed fron 600px to 600px to 500px  */
+	height: 500px; /*changed fron 600px to 600px to 500px 04/06/2022 */
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -441,7 +442,7 @@ html, body {
 		background-repeat: no-repeat;
 		background-size: cover; /* cover: Resize the background image to cover the entire container used to see reference: https://www.w3schools.com/cssref/css3_pr_background-size.asp */
 		width: 100%; /* added it. Testing background 30/05/2022 */
-		height: 600px; /* Testing background 30/05/2022. 500px to 600px*/
+		height: 600px; /* Testing background 30/05/2022. 500px to 600px 04/06/2022 */
 		/*background: #ef0ae0; */ /* Testing background 30/05/2022. Yellow enables to display on devices of height upto 767px, line403  */
 	}
 }
