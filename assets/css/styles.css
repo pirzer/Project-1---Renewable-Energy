@@ -1,0 +1,513 @@
+@import url('https://fonts.googleapis.com/css?family=Allura|Josefin+Sans');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	list-style: none;
+	text-decoration: none;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+h1.title{
+	margin-bottom: 10px; /* 30/05/2022. changing 20px to 10px */
+	color: #def9e8;  /* about us word */
+	font-family: 'Tahoma', cursive;
+	text-transform: uppercase;
+	font-size: 40px;
+	word-spacing: 10px;  /* changing 30px to 10px 04/06/2022 */
+	letter-spacing: 15px;
+}
+
+p{
+	margin-bottom: 15px;
+	font-size: 18px;
+	line-height: 20px;
+	color: #fefefe; /* we can make your green projects come true. changed 92da7a to #fefefe 04/06/2022 */
+
+}
+
+.btn a {
+    width: 180px;
+    height: 35px;
+    line-height: 35px;
+    border: 2px solid #01460a; /* border color submit*/
+    color: #fbfffb; /*learn more color*/
+    display: block;
+    margin: 25px auto 0;
+    text-align: center;
+	background-color: #88b10e;  /* ?? */
+	font-size: 15px; /* setting font-size to text of buttom at 10px 04/06/2022 */
+}
+
+.main_container{
+	position: relative;
+}
+
+/* Navigation Bar */
+.navbar{
+	width: 100%;
+	height: 75px; /* 65px to 75px 04/06/2022 */
+	position: absolute;
+	display: flex;
+	justify-content: space-between; /* changed space-around to space-between 04/06/2022 */
+	align-items: center;
+	background-color: rgba(207, 217, 207, 0.571);  /* rgba(7, 93, 12, 0.571) to (207 217 207 0.571)  04/06/2022 */
+	padding: 2%; /* adding 28/05/2022 */
+}
+/* added all this media 29/05/2022 to fix tablet white colour */
+@media screen and (max-width: 767px) {   
+	body #logo {
+	  max-width: 90%;
+	  display: block;
+	}
+   }
+/* added all this media 29/05/2022 to fix tablet white colour */
+.logo a{
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 42px;
+	color: #0f3e04;  /* changed #45e51e to #0f3e04  04/06/2022*/
+}
+
+.navbar_items ul{
+	display: flex;
+}
+
+.navbar_items ul li{
+	margin: 0 10px;
+}
+
+.navbar_items ul li a{
+	text-transform: uppercase;
+	color: #0f3e04; /* rgb(71, 238, 56) to #0f3e04 04/06/2022 */
+}
+
+/* Responsiveness 29/05/2022 */
+@media (min-width: 768px) {
+    .navi{
+        max-height: none;
+        top: 0;
+        position: relative;
+        float: right;
+        width: fit-content;
+    }
+    .menu li{
+        float: left;
+    }
+}
+/* Responsiveness 29/05/2022 */
+
+/* banner_image */
+.banner_image{
+	background-size: cover;
+	width: 100%;
+	height: 500px; /*changed fron 600px to 600px to 500px 04/06/2022 */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+} 
+
+.banner_content{
+	text-align: center;
+	color: rgb(227 240 227); /* RENEWABLE ENERGY EXPERTS ON EPC PROJECTS. from green to white rgb (197,244,195)*/
+	background: #03300554; /* background main message #03300e to #03300e54, #03300554 */
+}
+
+.banner_content h1{
+	text-transform: uppercase;
+	line-height: 38px;
+	margin-bottom: 15px;
+}
+
+.banner_content h1 span{
+	color: #26fc32; /* SOLAR & WIND POWER PLANTS. changed from #4f8841 to #44cc16 #26fc32 */
+}
+
+
+/* About */
+.about{
+	background: #1b440d;
+}
+.about,
+.services,
+.ourteam,
+.contactus,
+.location{
+	text-align: center;
+	padding: 5% 5%;  /* 5% 10% changed to 5% 5% 04/06/2022*/
+}
+
+/* Services */
+.services{
+	background: #7fda08;
+}
+
+.diff_services {
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.diff_services .diff_services_item {
+    width: 30%;
+}
+
+.diff_services .diff_services_item img {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.diff_services .diff_services_item h3 {
+    color: #012007;
+    margin-bottom: 15px;
+}
+
+/* Contact us */
+.contactus{
+	background: #14691b;
+}
+.form_wrapper .form_input{
+	margin-bottom: 15px;
+}
+
+.form_wrapper .form_input input[type="text"]{
+	width: 210px; /* changing 250px to 210px 30/05/2022 */
+	padding: 12px 20px; 
+	border: 5px solid  rgb(52, 222, 52); /*email and name blanks */
+}
+
+.form_wrapper .form_input textarea{
+	width: 210px; /* changing 250px to 210px 30/05/2022 */
+	padding: 12px 20px; 
+	height: 80px;
+	resize: none;
+	border: 5px solid  rgb(99, 246, 91);  /*message blanks */
+}
+/* Responsive Contact us Form 30/05/2022 */
+@media screen and (max-width: 880px){
+	.form_wrapper .form_input input{
+		grid-template-columns: 1fr;
+	}
+	.form_wrapper .form_input textarea{
+		height: 80px;
+	}
+}
+/* Responsive Contact us Form 30/05/2022 */
+
+/* our team */
+.ourteam{
+	background: #25b201;
+}
+
+.ourteam_wrapper{
+	display: flex;
+	flex-direction: column;
+}
+
+.ourteam_wrapper .team{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 1rem;
+}
+
+.ourteam_wrapper .team-1.team{
+	margin-bottom: 25px;
+}
+
+.ourteam_wrapper .team-2.team{
+	margin-bottom: 25px;
+}
+.ourteam_wrapper .team_members{
+	width: 300px;
+	height: auto;
+	cursor: pointer;
+	overflow: hidden;
+	position: relative;
+}
+
+.ourteam_wrapper .team_members img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	transition: all 0.5s ease;
+}
+
+.ourteam_wrapper .team_members:hover img{
+	transform: scale(1.8);  /* zoom in */
+}
+
+/* Location */
+
+/* font size changes 31/05/2022*/
+div.location {
+	/*background-color: lightgrey;*/
+	padding: 0px; /* adjusting padding fron 20px to 0 to keep location heading into spec 04/06/2022*/
+  }
+  
+  @media screen and (min-width: 601px) {
+	div.location {
+	  font-size: 80px;
+	}
+  }
+  
+  @media screen and (max-width: 600px) {
+	div.location {
+	  font-size: 30px;
+	}
+  }
+
+/* font size changes 31/05/2022*/
+
+.location{
+    background-color: rgb(69, 119, 54);
+	width: 100%;
+}
+.location-details{
+    display: flex;
+    justify-content: center; 	/* 29/05/2022 space-around changed to center */
+	flex-wrap: wrap; 			/* 29/05/2022 added it */
+	gap: 5rem;					/* 29/05/2022 added it */
+}
+.location-icon {
+    text-align: center;
+    font-size: 2rem;
+}
+.location-info {
+    text-align: center;
+    font-size: 1.2rem;
+}
+iframe {
+	display: block; /*testing mobile screen 29/05/2022 */
+	width: 65vw;	/*testing mobile screen 29/05/2022 */
+	height: calc(.5 * 65vw);	/*testing mobile screen 29/05/2022 */
+	max-width: 400px; /*testing mobile screen 29/05/2022 */
+	min-height: 200px; /*testing mobile screen 29/05/2022 */
+	margin: 1rem auto;/*testing mobile screen 29/05/2022 */
+	margin-bottom: 1rem auto; /*testing mobile screen 29/05/2022 + auto*/
+	border: solid 2px gray; /*testing mobile screen 29/05/2022 */
+	box-shadow: 2px 2px 2px rgba(152, 183, 146, 0.856); /*testing mobile screen 29/05/2022 */
+	border-radius: 10px; /*testing mobile screen 29/05/2022 */
+    align-self: center;
+	filter: invert(100%);
+}
+.map {
+    display: flex;
+    justify-content: center;
+	width: 100%;
+}
+.location-details,
+.map {
+	margin-right: 1rem !important; /*testing mobile screen 30/05/2022. 6rem to 1rem */
+}
+.email-address:link, 
+.email-address:visited{
+    text-decoration: none;
+    color: inherit;
+}
+.email-address:hover,
+.email-address:active{
+    text-decoration: underline;
+}
+
+
+/* Footer */
+.footer{
+	width: 100%;
+	text-align: center;
+	background: #0f2210;
+	padding: 5px 0;
+}
+
+.footer a{
+	color: #fff;
+}
+
+/* Footer Blinker*/
+.blinkingfooter{
+    animation:blinkingText 1.2s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: rgb(225, 240, 230);    }
+    49%{    color: rgb(32, 215, 12); }
+    60%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: rgb(20, 181, 33);    }
+}
+
+@media (max-width: 720px){
+
+	.navbar{
+		height: auto;
+		flex-direction: column;
+	}
+
+	.logo{
+		margin-bottom: 25px;
+	}
+
+	.navbar_items ul{
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.navbar_items ul li{
+		margin-bottom:5px;
+	}
+
+	.banner_content{
+		margin-top: 35px;
+		position: absolute;
+		top: 300px;
+	}
+
+}
+
+
+/* Arrow */
+.arrow{
+	position: fixed;
+	bottom: 25px;
+	right: 25px;
+	width: 40px;
+	height: 40px;
+	line-height: 50px;
+	text-align: center;
+	cursor: pointer;
+	background: #222f22;
+	border-radius: 50%;
+}
+
+.arrow img{
+	width: 20px;
+	height: 20px;
+	z-index: 1;
+}
+
+.blink_img {
+	animation: blinker 2s linear infinite;
+  }
+  @keyframes blinker {
+	50% { opacity: 0; }
+  }
+  @keyframes blin {
+	50% { opacity: 0; }
+  }
+
+/* Video */
+
+html, body {
+	width: 100%;
+  	height: 100vh;  /* 30/05/2022 changing % to vh*/
+	margin: 0;
+	padding: 0; 
+	display: flex; /* 28/05/2022 */
+	justify-content: center; /* 28/05/2022 */
+	font-family: 'Poppins', sans-serif; /* 28/05/2022 */
+
+} 
+
+#videoBG  {
+    position: absolute;
+    z-index: -1;
+	width: 100%; /* width increased from 100% to 150% to cover the white background and leave out the logo, 150% to 100% 04/06/2022 */
+}
+
+@media (min-aspect-ratio: 16/9) {
+    #videoBG {
+        width:100%;
+        height: auto;
+    }
+}
+@media (max-width: 766px) { /* To display on devices of height upto 767px    */
+    #videoBG {
+        display: none;
+    }
+    body {
+        background-size: cover;
+    }
+	/* added 29/05/2022 */
+	h1.title {
+		font-size: 25px;  /* changed 25px to 15px 30/05/2022. 31/01/2022 changed from 25px to 20px, 20px to 40px 04/06/2022 */
+	}
+	.banner_content h1 {
+		font-size: 25px;
+	}
+	.banner_image {
+		background: url("https://s3.envato.com/files/236059013/01_preview1.jpg"); 
+		background-repeat: no-repeat;
+		background-size: cover; /* cover: Resize the background image to cover the entire container used to see reference: https://www.w3schools.com/cssref/css3_pr_background-size.asp */
+		width: 100%; /* added it. Testing background 30/05/2022 */
+		height: 600px; /* Testing background 30/05/2022. 500px to 600px 04/06/2022 */
+	}
+}
+
+
+/* Reposive text 30/05/2022 ??? */
+
+:root {
+	font-size: 82.5%; /* changed from 62.5% to 72.5% 04/06/2022. changed from 72.5% to 82.5%*/
+  }
+  
+  h3 {
+	font-size: clamp(1.6rem, 2vw, 2.1rem); /* changed 1.2rem to 1.6rem */
+  }
+  
+  p {
+	font-size: clamp(1.2rem, 2vw, 2.1rem);
+  } 
+
+ /* Reposive text 30/05/2022 */
+ 
+
+ /* Reposive paragraph 04/06/2022 */
+
+.responsive-paragraph{
+    line-height: 1.5;
+    font-size: 20px
+}
+
+.responsive-paragraph-a{
+    line-height: 1.1;
+    font-size: 18px
+}
+
+.responsive-paragraph-b{
+    line-height: 1;
+    font-size: 12px
+}
+/* Reposive paragraph 04/06/2022 */
+
+
+
+/* Logo power verde - plug - 05/06/2022 */
+
+.icon-logoverde {
+	position: relative;
+	display: inline-block;
+	width: 3em;  		/* changed from 3em to 5em 05/06/2022 */
+	height: 4.5em;		/* changed from 3em to 1.4em 05/06/2022 */
+	line-height: 4em;	/* changed from 4em to 5em 05/06/2022 */
+	vertical-align: initial;
+	color:#59f317;
+  }
+  .icon-logoverde-1x,
+  .icon-logoverde-2x,
+  .icon-logoverde-3x {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	text-align: right;
+  }
+  .icon-logoverde-1x {
+	line-height: inherit;
+  }
+  .icon-logoverde-2x {
+	font-size: 1.5em;
+  }
+  .icon-logoverde-3x {
+	font-size: 2em;
+  }
+
+/* Logo power verde - plug - 05/06/2022 */
