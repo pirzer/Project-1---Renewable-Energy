@@ -481,3 +481,36 @@ html, body {
     font-size: 12px
 }
 /* Reposive paragraph 04/06/2022 */
+
+
+
+/* Logo power verde - plug - 05/06/2022 */
+
+.icon-logoverde {
+	position: relative;
+	display: inline-block;
+	width: 3em;  		/* changed from 3em to 5em 05/06/2022 */
+	height: 4.5em;		/* changed from 3em to 1.4em 05/06/2022 */
+	line-height: 4em;	/* changed from 4em to 5em 05/06/2022 */
+	vertical-align: initial;
+	color:#59f317;
+  }
+  .icon-logoverde-1x,
+  .icon-logoverde-2x,
+  .icon-logoverde-3x {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	text-align: right;
+  }
+  .icon-logoverde-1x {
+	line-height: inherit;
+  }
+  .icon-logoverde-2x {
+	font-size: 1.5em;
+  }
+  .icon-logoverde-3x {
+	font-size: 2em;
+  }
+
+/* Logo power verde - plug - 05/06/2022 */
