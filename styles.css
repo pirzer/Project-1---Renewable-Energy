@@ -443,7 +443,6 @@ html, body {
 		background-size: cover; /* cover: Resize the background image to cover the entire container used to see reference: https://www.w3schools.com/cssref/css3_pr_background-size.asp */
 		width: 100%; /* added it. Testing background 30/05/2022 */
 		height: 600px; /* Testing background 30/05/2022. 500px to 600px 04/06/2022 */
-		/*background: #ef0ae0; */ /* Testing background 30/05/2022. Yellow enables to display on devices of height upto 767px, line403  */
 	}
 }
 
@@ -451,7 +450,7 @@ html, body {
 /* Reposive text 30/05/2022 ??? */
 
 :root {
-	font-size: 72.5%; /* changed from 62.5% to 72.5% */
+	font-size: 82.5%; /* changed from 62.5% to 72.5% 04/06/2022. changed from 72.5% to 82.5%*/
   }
   
   h3 {
