@@ -61,10 +61,6 @@ This project shows an EPC contractor's website that offers turnkey **Wind and So
 
    - ### Libraries, Frameworks & Sofware Used
 
-1. [Google Fonts:](https://fonts.google.com/)
-    - **Google fonts** were used to import font-family into the style.
-1. [Font Awesome:](https://fontawesome.com/)
-    - **Font Awesome** was used to add icon for this project.
 1. [Ezgif:](https://ezgif.com/resize-video)
     - This software online was used to edit the intro video.  
 1. [Bracket:](https://brackets.io/)
@@ -77,7 +73,7 @@ This project shows an EPC contractor's website that offers turnkey **Wind and So
     - This was used to assess the **HTML** and **CSS** files.
 1. [GoogleFonts](https://fonts.google.com)
     - The website imports font-family from **GoogleFonts**.
-1. [Fontawesome](https://fontawesome.com)
+1. [FontAwesome](https://fontawesome.com)
     - The website imports icon from **FontAwesome**.  
 1. [Testing](https://testingbot.com/members/manual/340332)
     - This website was used to test this website based on this system for cross-browser **Testing**.
