@@ -48,7 +48,7 @@ p{
 /* Navigation Bar */
 .navbar{
 	width: 100%;
-	height: 75px; /* 65px to 75px 04/06/2022 */
+	height: 90px; /* 65px to 75px 04/06/2022 -> 90px 06/06/2022 */
 	position: absolute;
 	display: flex;
 	justify-content: space-between; /* changed space-around to space-between 04/06/2022 */
