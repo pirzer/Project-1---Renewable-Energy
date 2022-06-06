@@ -1,6 +1,6 @@
 # <font color="green">Verde Power</font>  
 
-This project shows an **EPC contractor's website** that offers turnkey **Wind and Solar Power Plants, Technical Due Diligence, and Operations and Maintenance**. The video, colours, images, and Google Map have been chosen to create a company's image as a business that is committed and working to the environment. Additionally, the website's information shows a form section and the company's location in Galway, Ireland. Finally, the website's design is aimed to be amicable and responsive to different devices such as PC desks, laptops, tablets, and mobile phones to make a friendly experience for website visitors.   
+This project shows an **EPC contractor's website** that offers turnkey **Wind and Solar Power Plants, Technical Due Diligence, and Operations and Maintenance**. The video, colours, images, and Google Map have been chosen to create a company's image as a business that is committed and working to protect the environment. Additionally, the website's information shows a contact form section and the company's location in Galway, Ireland. Finally, the website's design is aimed to be amicable and responsive to different devices such as PC deskstop, laptops, tablets, and mobile phones to make a friendly experience for website visitors.   
 
 <font color="green">Be Verde, Be Great!!!</font> Hit the following link to see this live project: **[<font color="green">VERDER POWER WEBSITE</font>](HTTP://pirzer.github.io/Project-1---Renewable-Energy/)**.  
 
@@ -44,11 +44,11 @@ This project shows an **EPC contractor's website** that offers turnkey **Wind an
         -   The format of the video is mp4. The video displays solar and wind farms representing the business aspects. 
  
     -   #### User's Profile
-        -   As a user with specific background in this industry, I expect to view some installations and technical teams as is shown already.
+        -   As a user with specific background experience in this industry, I expect to view some installations and technical teams as is shown already.
 
 ## Features
 
--   To improve user engagement at this website, interactive elements use were included. 
+-   To improve user engagement at this website, the use of interactive elements was included. 
 
 -   Responsive approach was applied on different screen sizes such as **PC Desk, Laptop, Tablets, and Mobile Phones**.  
 
