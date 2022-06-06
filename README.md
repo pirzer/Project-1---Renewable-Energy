@@ -98,10 +98,10 @@ This project shows an EPC contractor's website that offers turnkey Wind and Sola
 -   ![PC Desk, Laptop, Tablet, mobile Demo](/assets/images/Demo.JPG "PC Desk, Laptop, Tablet, and Mobile")  
 
     ### Google Chrome - Test Report - PC Desk
--   ![PC Desk](/assets/images/test%20report%20pc%20desk.JPG "PC Desk Test")  
+-   ![PC Desk](/assets/images/test%20report%2097%20-%20chrome%20PC%20desk.JPG "PC Desk Test")  
 
     ### Google Chrome - Test Report - Mobile
--   ![PC Desk](/assets/images/mobile.JPG "Mobile Test")  
+-   ![PC Desk](/assets/images/test%20report%2095%20-%20chrome%20mobile.JPG "Mobile Test")  
 
     ### Testingbot - Test Report - Mobile
 -   ![PC Desk](/assets/images/Mobile%20Test%201.JPG "Mobile Test")  
