@@ -133,13 +133,6 @@ This project shows an EPC contractor's website that offers turnkey **Wind and So
 -   Full scroll/down
 -   Refresh website
 -   All sections show up while the user[s] scroll up/down it.
-
-## Testing scrolling
--   The Website is performing correctly. The scrolling tests done are as follow:
-
--   Full scroll/down
--   Refresh website
--   All sections show up while the user[s] scroll up/down it.
 -   See the following images:  
 
 ![Scrolling up/down](/assets/images/scroll%20down%201.JPG "CSS")  
