@@ -32,16 +32,16 @@ This project shows an **EPC contractor's website** that offers turnkey **Wind an
 -   ### Design
     - #### Colour Code
 
-        -  Due to the company's belongs to Renewable Energy Industry, the website's colours are green, white, transparent, and gray, and their variance, i.e., 12 types of greens,  5  different whites, 1 gray, and 1 transparent, to sum a total 19 colours.  
+        -  Due to the company's association  to Renewable Energy Industry, the website's colours are green, white, transparent, and grey, and their variance, i.e., 12 types of greens,  5  different whites, 1 grey, and 1 transparent, to sum a total 19 colours.  
         
     - #### Typography
 
-        -  4 types of font-family were used as part of the learning and experiment process of using typography properties coding.  
+        -  4 types of font-family were used as part of the learning and experiment process of using typography properties in coding.  
 
     -   #### Video & Imagery
         -   The format of the images is jpg and png. The images used are from the Energy Industry.  
 
-        -   The format of the video is mp4. The video displays solar and wind farms representing the business line. 
+        -   The format of the video is mp4. The video displays solar and wind farms representing the business aspects. 
  
     -   #### User's Profile
         -   As a user with specific background in this industry, I expect to view some installations and technical teams as is shown already.
@@ -59,7 +59,7 @@ This project shows an **EPC contractor's website** that offers turnkey **Wind an
         -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
         -   [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)  
 
-   - ### Libraries, Frameworks & Sofware Used
+   - ### Libraries, Frameworks & Software Used
 
 1. [Ezgif:](https://ezgif.com/resize-video)
     - This software online was used to edit the intro video.  
@@ -145,11 +145,11 @@ This project shows an **EPC contractor's website** that offers turnkey **Wind an
 ![Scrolling up/down](/assets/images/hover%20test%202.jpg "CSS")  
 
 ## Deployment 
--   The following steps were done to complete the deployment.  
+-   The following steps were performed to complete the deployment.  
     - Create a New Repository on my **GitHub** account.  
-    - Link my **GitPod** and my repository doing clicking on the green button of **GitPod** showing in **GitHub**.  
+    - Link my **GitPod** and my repository by clicking on the green button of **GitPod** showing in **GitHub**.  
     - Typed the command  `git init` in **GitPod** environment I could start my repository. 
-    - **GitPod** terminal was used with the intention of adding files, committing, and pushing using Git version control.  
+    - **GitPod** terminal was used with the intention of adding files, committing, and pushing, using Git version control.  
     - By using the command `git push`, all changes were sent to the remote repository in **GitHub**.
     - My **GitHub** was named, and setting also. The option of Master Branch was selected. 
     - The deployed site is updated automatically when new commits take place.  
