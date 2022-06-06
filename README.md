@@ -1,6 +1,6 @@
 # <font color="green">Verde Power</font>  
 
-This project shows an EPC contractor's website that offers turnkey **Wind and Solar Power Plants, Technical Due Diligence, and Operations and Maintenance**. The video, colours, images, and Google Map version have been chosen to foster the image on users' navigation of the company as a business that is committed and working to the environment. Additionally, the website's information shows a form section and the company's location in Galway, Ireland. Finally, the website's design has been assessed to be accessible and responsive for different devices such as PC desks, laptops, tablets, and mobile phones to make a friendly experience for website visitors.  
+This project shows an EPC contractor's website that offers turnkey **Wind and Solar Power Plants, Technical Due Diligence, and Operations and Maintenance**. The video, colours, images, and Google Map have been chosen to create a company's image as a business that is committed and working to the environment. Additionally, the website's information shows a form section and the company's location in Galway, Ireland. Finally, the website's design has been assessed to be amicable and responsive for different devices such as PC desks, laptops, tablets, and mobile phones to make a friendly experience for website visitors.    
 
 <font color="green">Be Verde, Be Great!!!</font> Hit the following link to see this live project: **[<font color="green">VERDER POWER WEBSITE</font>](HTTP://pirzer.github.io/Project-1---Renewable-Energy/)**.  
 
