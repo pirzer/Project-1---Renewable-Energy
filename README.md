@@ -1,108 +1,125 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# <font color="green">Verde Power</font>  
 
-Welcome pirzer,
+This project shows an EPC contractor's website that offers turnkey Wind and Solar Power Plants, Technical Due Diligence, and Operations and Maintenance. The video, colours, images, and Google Map version have been chosen to foster the image on users' navigation of the company as a business that is committed and working to the environment. Additionally, the website's information shows a form section and the company's location in Galway, Ireland. Finally, the website's design has been assessed to be accessible and responsive for different devices such as PC desks, laptops, tablets, and mobile phones to make a friendly experience for website visitors.  
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+<font color="green">Be Verde, Be Great!!!</font> Hit the following link to see this live project: **[<font color="green">VERDER POWER WEBSITE</font>](HTTP://pirzer.github.io/Project-1---Renewable-Energy/)**.  
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+![PC Desk, Laptop, Tablet, mobile Demo](/assets/images/Demo.JPG "Verde Power screens")  
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## <font color="green">Contents</font>  
 
-`python3 -m http.server`
 
-A blue button should appear to click: _Make Public_,
+- [User Experience](#user-experience-ux)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Testing](#testing)
+- [Deployment](#deployment)
+- [Credits](#credits)  
 
-Another blue button should appear to click: _Open Browser_.
+## User Experience (UX)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- ### User stories
 
-A blue button should appear to click: _Make Public_,
+  - ### As a user or potential client/partnership/investor, I expect to navigate and find the following info: 
 
-Another blue button should appear to click: _Open Browser_.
+    -  What does the company consist of? i.e., direct to the grain, a brief description of the company service and/or product.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+    -  Get familiar with the company's team, and some images of the their projects. 
 
-To log into the Heroku toolbelt CLI:
+    -  Friendly way to contact the company and location details in the event of requesting further details for future projects.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+-   ### Design
+    - #### Colour Code
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+        -  Due to the company's belongs to Renewable Energy Industry, the website's colours are green, white, transparent, and gray, and their variance, i.e., 12 types of greens,  5  different whites, 1 gray, and 1 transparent, to sum a total 19 colours.  
+        
+    - #### Typography
 
-------
+        -  4 types of font-family were used as part of the learning and experiment process of using typography properties coding.  
 
-## Release History
+    -   #### Video & Imagery
+        -   The format of the images is jpg and png. The images used are from the Energy Industry.  
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+        -   The format of the video is mp4. The video displays solar and wind farms representing the business line. 
+ 
+    -   #### User's Profile
+        -   As a user with specific background in this industry, I expect to view some installations and technical teams as is shown already.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+## Features
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+-   To improve user engagement at this website, interactive elements use were included. 
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+-   Responsive approach was applied on different screen sizes such as PC Desk, Laptop, Tablets, and Mobile Phones.  
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+## Technologies Used
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+   - ### Languages Used
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+        -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+        -   [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)  
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+   - ### Libraries, Frameworks & Sofware Used
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+1. [Google Fonts:](https://fonts.google.com/)
+    - **Google fonts** were used to import font-family into the style.
+1. [Font Awesome:](https://fontawesome.com/)
+    - **Font Awesome** was used to add icon for this project.
+1. [Ezgif:](https://ezgif.com/resize-video)
+    - This software online was used to edit the intro video.  
+1. [Bracket:](https://brackets.io/)
+    - **Brackets** allowed to see a Live preview of markdown documents - current file -.        
+1. [Youtube:](https://www.youtube.com/)
+    - **Youtube** website was used to search information coding-wise.
+1. [Amiresponsive](https://ui.dev/amiresponsive?)
+    - This website was used as a tool for checking to see how the website looks at different screen sizes. 
+1. [W3C](https://validator.w3.org)
+    - This was used to assess the HTML and CSS files.
+1. [GoogleFonts](https://fonts.google.com)
+    - The website imports font-family from **GoogleFonts**.
+1. [Fontawesome](https://fontawesome.com)
+    - The website imports icon from **FontAwesome**.  
+1. [Testing](https://testingbot.com/members/manual/340332)
+    - This website was used to test this website based on this system for cross-browser **Testing**.
+    - Browers testing:  **Opera**, **Edge**, **FireFox**, and **Chrome**. The website performs satisfactorily as expected. 
+ 1. [Chrome DevTools](https://www.google.com/)
+    - The website was tested to make its performance as much responsive as desired.  
+1. [GitHub:](https://github.com/)
+    - Following repository practice, it was used  **GitHub**.
+1. [GitHub Pages](https://pages.github.com)
+    - To deploy this website, it was done using **GitHub Pages**.
+1. [GitPod](https://www.gitpod.io)
+    - The coding was developed using **GitPod** as the cloud-based environment.  
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+## Testing 
+-   The following images show the test results:   
+    
+    ### Am I responsive
+-   ![PC Desk, Laptop, Tablet, mobile Demo](/assets/images/Demo.JPG "PC Desk, Laptop, Tablet, and Mobile")  
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+    ### Google Chrome - Test Report - PC Desk
+-   ![PC Desk](/assets/images/test%20report%20pc%20desk.JPG "PC Desk Test")  
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+    ### Google Chrome - Test Report - Mobile
+-   ![PC Desk](/assets/images/mobile.JPG "Mobile Test")  
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+    ### Testingbot - Test Report - Mobile
+-   ![PC Desk](/assets/images/Mobile%20Test%201.JPG "Mobile Test")  
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+    ### Testingbot - Test Report - Tablet
+-   ![PC Desk](/assets/images/Tablet%20test%202.JPG "Tablet Test")
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+    ### Testingbot - Test Report - FireFox
+-   ![PC Desk](/assets/images/firefox.JPG "FireFox")  
 
-------
+    ### Testingbot - Test Report - Opera
+-   ![PC Desk](/assets/images/opera.JPG "Opera")  
 
-## FAQ about the uptime script
+    ### Testingbot - Test Report - Edge
+-   ![PC Desk](/assets/images/edge.JPG "Edge")  
 
-**Why have you added this script?**
+## Coding Validation 
+-   The following images show the test results:
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
 
-**How will this affect me?**
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
