@@ -1,6 +1,6 @@
 # <font color="green">Verde Power</font>  
 
-This project shows an EPC contractor's website that offers turnkey Wind and Solar Power Plants, Technical Due Diligence, and Operations and Maintenance. The video, colours, images, and Google Map version have been chosen to foster the image on users' navigation of the company as a business that is committed and working to the environment. Additionally, the website's information shows a form section and the company's location in Galway, Ireland. Finally, the website's design has been assessed to be accessible and responsive for different devices such as PC desks, laptops, tablets, and mobile phones to make a friendly experience for website visitors.  
+This project shows an EPC contractor's website that offers turnkey **Wind and Solar Power Plants, Technical Due Diligence, and Operations and Maintenance**. The video, colours, images, and Google Map version have been chosen to foster the image on users' navigation of the company as a business that is committed and working to the environment. Additionally, the website's information shows a form section and the company's location in Galway, Ireland. Finally, the website's design has been assessed to be accessible and responsive for different devices such as PC desks, laptops, tablets, and mobile phones to make a friendly experience for website visitors.  
 
 <font color="green">Be Verde, Be Great!!!</font> Hit the following link to see this live project: **[<font color="green">VERDER POWER WEBSITE</font>](HTTP://pirzer.github.io/Project-1---Renewable-Energy/)**.  
 
@@ -50,7 +50,7 @@ This project shows an EPC contractor's website that offers turnkey Wind and Sola
 
 -   To improve user engagement at this website, interactive elements use were included. 
 
--   Responsive approach was applied on different screen sizes such as PC Desk, Laptop, Tablets, and Mobile Phones.  
+-   Responsive approach was applied on different screen sizes such as **PC Desk, Laptop, Tablets, and Mobile Phones**.  
 
 ## Technologies Used
 
@@ -74,7 +74,7 @@ This project shows an EPC contractor's website that offers turnkey Wind and Sola
 1. [Amiresponsive](https://ui.dev/amiresponsive?)
     - This website was used as a tool for checking to see how the website looks at different screen sizes. 
 1. [W3C](https://validator.w3.org)
-    - This was used to assess the HTML and CSS files.
+    - This was used to assess the **HTML** and **CSS** files.
 1. [GoogleFonts](https://fonts.google.com)
     - The website imports font-family from **GoogleFonts**.
 1. [Fontawesome](https://fontawesome.com)
@@ -157,12 +157,12 @@ This project shows an EPC contractor's website that offers turnkey Wind and Sola
 
 ## Deployment 
 -   The following steps were done to complete the deployment.  
-    - Create a New Repository on my GitHub account.  
-    - Link my GitPod and my repository doing clicking on the green button of GitPod showing in GitHub.  
-    - Typed the command  `git init` in GitPod environment I could start my repository. 
-    - GitPod terminal was used with the intention of adding files, committing, and pushing using Git version control.  
-    - By using the command `git push`, all changes were sent to the remote repository in GitHub.
-    - My GitHub was named, and setting also. The option of Master Branch was selected. 
+    - Create a New Repository on my **GitHub** account.  
+    - Link my **GitPod** and my repository doing clicking on the green button of **GitPod** showing in **GitHub**.  
+    - Typed the command  `git init` in **GitPod** environment I could start my repository. 
+    - **GitPod** terminal was used with the intention of adding files, committing, and pushing using Git version control.  
+    - By using the command `git push`, all changes were sent to the remote repository in **GitHub**.
+    - My **GitHub** was named, and setting also. The option of Master Branch was selected. 
     - The deployed site is updated automatically when new commits take place.  
 
 ## Credits 
