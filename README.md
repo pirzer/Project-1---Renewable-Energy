@@ -118,8 +118,99 @@ This project shows an EPC contractor's website that offers turnkey Wind and Sola
     ### Testingbot - Test Report - Edge
 -   ![PC Desk](/assets/images/edge.JPG "Edge")  
 
-## Coding Validation 
--   The following images show the test results:
+## Coding Validation - HTML & CSS
+-   The following images show the test results without warnings or error messages:  
+
+    ### HTML Checker report
+-   ![HTML](/assets/images/HTML%20Report.JPG "HTML")  
+
+    ### CSS - Checker Report 
+-   ![PC Desk](/assets/images/CSS%20Report.JPG "CSS")  
+
+## Testing scrolling
+-   The Website is performing correctly. The scrolling tests done are as follow:
+
+-   Full scroll/down
+-   Refresh website
+-   All sections show up while the user[s] scroll up/down it.
+
+## Testing scrolling
+-   The Website is performing correctly. The scrolling tests done are as follow:
+
+-   Full scroll/down
+-   Refresh website
+-   All sections show up while the user[s] scroll up/down it.
+-   See the following images:  
+
+![Scrolling up/down](/assets/images/scroll%20down%201.JPG "CSS")  
+![Scrolling up/down](/assets/images/scroll%20down%202.JPG "CSS")  
+![Scrolling up/down](/assets/images/scroll%20up.JPG "CSS")  
+
+## Testing hovering
+-   The Website is performing correctly. The hovering tests done are as follow:  
+
+-   6 x Images from Our Team section work perfect
+-   Refresh website
+-   See the following images:  
+![Scrolling up/down](/assets/images/hover%20test%201.JPG "CSS") 
+![Scrolling up/down](/assets/images/hover%20test%202.jpg "CSS")  
+
+## Deployment 
+-   The following steps were done to complete the deployment.  
+    - Create a New Repository on my GitHub account.  
+    - Link my GitPod and my repository doing clicking on the green button of GitPod showing in GitHub.  
+    - Typed the command  `git init` in GitPod environment I could start my repository. 
+    - GitPod terminal was used with the intention of adding files, committing, and pushing using Git version control.  
+    - By using the command `git push`, all changes were sent to the remote repository in GitHub.
+    - My GitHub was named, and setting also. The option of Master Branch was selected. 
+    - The deployed site is updated automatically when new commits take place.  
+
+## Credits 
+
+### Content 
+    - All the information displayed was written by the developer.  
+
+### Source of Images and Video 
+
+        - https://rec.ie/environmental-eng/  
+        - https://energynext.co.th/category/news/page/35/   
+        - https://www.altenergymag.com/storyfeed/solar-wind/    
+        - https://www.greentechmedia.com/articles/read/operations-and-maintenance-the-key-wind-farm-profitability  
+        - https://www.youtube.com/watch?v=wpFUAxInzAc  
+          
+
+### Code
+
+-   The following websites have been the main support and sources for this project:  
+
+        - https://github.com/codingmarket07/Responsive-Website-Design-  
+        - https://github.com/m1key-m/grinders-coffee-house  
+        - https://github.com/jdquerales/MilestoneProject_1  
+        - https://www.youtube.com/watch?v=j_lo8rvpsh4  
+        - https://www.youtube.com/watch?v=j_lo8rvpsh4    
+
+
+### Acknowledgements
+
+-   Tutors online from Code Institute for their helpful input.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
